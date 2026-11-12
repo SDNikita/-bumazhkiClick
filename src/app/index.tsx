@@ -5,7 +5,7 @@ import { styles } from '../styles/welcomeStyles';
 
 export default function WelcomeScreen() {
   function handleStart(){
-    router.push('/game');
+    router.push('/tabs/game');
   }
 
   return (
